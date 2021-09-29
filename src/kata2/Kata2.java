@@ -17,13 +17,9 @@ public class Kata2 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        int[] data = new int[]{1, 2, -4, 100, 1, 20, 15, 8, 14, 10, 11, 120, 20, 14,15};
+        int[] data = new int[]{1, 2, -4, 100, 1, 20, 15, 8, 14, 100, 100, 100, 20, 14,15};
         HashMap<Integer, Integer> histogram = new HashMap<Integer, Integer>();
-        histogram.put(1, 20);
-        histogram.put(100, 8);
-        histogram.put(8, 3);
-        histogram.put(14, 4);
-        histogram.put(120, 5);
+        
         
         
         for (int i = 0; i < data.length; i++) {
